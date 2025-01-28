@@ -126,6 +126,7 @@ const Portfolio = () => {
                     // transform: 'translateX(-50%)',
                     zIndex: 20,
                 }}
+                className="poppins"
             >
                 <button onClick={handlePrev}
                 style={{
@@ -172,8 +173,8 @@ const Portfolio = () => {
                     padding: '2vh 0',
                     boxSizing: 'border-box',
                     zIndex: 10,
-                    fontFamily: "Poppins"
                 }}
+            className="poppins"
             >
                 <h2
                 style={{
